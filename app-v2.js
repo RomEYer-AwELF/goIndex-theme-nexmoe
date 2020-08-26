@@ -10,7 +10,7 @@ document.write(
   '<link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/mdui/0.4.1/css/mdui.css">'
 );
 document.write(
-  '<link rel="stylesheet" href="//od.loliloli.moe/theme/style.css">'
+  '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/RomEYer-AwELF/goIndex-theme-nexmoe@0.3/css/style.css">'
 );
 document.write(
   '<script src="//cdnjs.loli.net/ajax/libs/mdui/0.4.1/js/mdui.min.js"></script>'
