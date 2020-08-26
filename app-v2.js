@@ -7,7 +7,16 @@
  */
 // 在head 中 加载 必要静态
 document.write(
-  '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe/css/mdui.min.css">'
+  '<link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/mdui/0.4.1/css/mdui.css">'
+);
+document.write(
+  '<link rel="stylesheet" href="//od.loliloli.moe/theme/style.css">'
+);
+document.write(
+  '<script src="//cdnjs.loli.net/ajax/libs/mdui/0.4.1/js/mdui.min.js"></script>'
+);
+document.write(
+  '<link rel="shortcut icon" href="//cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN/img/favicon.ico">'
 );
 document.write(
   '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.2/css/nexmoe.min.css">'
@@ -39,10 +48,10 @@ function init() {
   var html = `
 <header class="nexmoe-nav">
     <div class="navSize">
-			<a href="/"><img class="avatar" src="https://i.loli.net/2020/04/24/wCxMZFtiv6aKmQ1.png"/></a>
+			<a href="/"><img class="avatar" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN/img/avatar.png"/></a>
 			<div class="nav_menu">
 				<ul class="menu_ul">
-					<li class="menu_li"><a href="https://5mayrain.github.io/" target="_blank">博客</a></li>
+					<li class="menu_li"><a href="https://loliloli.moe/" target="_blank">博客</a></li>
 					<li class="menu_li"><a href="https://drive.google.com/" target="_blank">登陆</a></li>
 				</ul>
 				<div class="nav_icon" ></div>
