@@ -6,10 +6,10 @@
 
 /*导航*/
 .nexmoe-nav {
-    height: 56px;
+    height: 75px;
     width: 100%;
     background-color: #fff;
-    box-shadow: 0 2px 6px rgba(0,0,0,.04);
+    box-shadow: 0 2px 6px rgba(0,0,0,.4);
 }
 
 .navSize{
@@ -24,8 +24,8 @@
     position: absolute;
     top: 4px;
     left: 5%;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border: 4px solid #ebe8e8;
     border-radius: 50%;
     transition: 1.2s;
@@ -48,13 +48,11 @@
 
 /* 导航 */
 .menu_ul{
+    margin: 10px auto;
     display: none;
     float: left;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin: 0 30px 0 0;
+    margin-right: 20px;
     height: 30px;
-    width: auto;
 }
 
 .menu_li{
@@ -99,13 +97,13 @@
 
 /* 图标icon */
 .nav_icon{
+    margin: 10px auto;
     float: left;
     width: 30px;
     height: 30px;
-    background: url(//cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe/images/icon_menu.png);
-    background-size:100% 100%;
+    background: url(//cn.loliloli.moe/theme/align-right.png);
+    background-size: 100% 100%;
     transition: .6s;
-    cursor: pointer;
 }
 
 /* 图标动画icon */
@@ -141,15 +139,16 @@
 }
 
 .mdui-toolbar > a:last-child {
-	opacity: 1;
-    background-color: #1e89f2;
-    color: #ffff;
+	padding: 0 16px;
+    line-height: 30px;
+    border-radius: 30px;
+    border: 1px solid #eee;
 }
 
 .mdui-toolbar > a {
     padding: 0 16px;
     line-height: 30px;
-    border-radius: 30px;
+    /*border-radius: 30px;*/
     border: 1px solid #eee;
 }
 
