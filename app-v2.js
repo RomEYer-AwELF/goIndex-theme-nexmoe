@@ -19,7 +19,7 @@ document.write(
   '<link rel="shortcut icon" href="//cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN/img/favicon.ico">'
 );
 document.write(
-  '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.2/css/nexmoe.min.css">'
+  '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/RomEYer-AwELF/goIndex-theme-nexmoe@0.1/css/nexmoe.min.css">'
 );
 // markdown支持
 document.write(
